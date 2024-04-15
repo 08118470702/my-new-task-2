@@ -12,7 +12,7 @@ const EditTask = () => {
         <h2 className="">
           <Link to='/alltask' className='d-flex my-5 headers new-task-header text-decoration-none ms-1 gap-3 align-items-center'>
             <img src={backImg} alt="" />
-            New Task
+         EditTask
           </Link>
         </h2>
 
