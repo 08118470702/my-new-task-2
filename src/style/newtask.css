@@ -1,0 +1,23 @@
+.newtask{
+        display: flex;
+        
+        justify-content: space-between;
+        align-items: end;
+        
+        
+}
+.middle{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+.upper{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+.under{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}

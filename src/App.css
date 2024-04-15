@@ -1,0 +1,114 @@
+/* utils */
+.headers{
+    color:rgba(41, 41, 41, 1) ;
+}
+
+input{
+    outline: 0;
+    border: 1px solid rgba(184, 182, 182, 1);
+}
+/* hero page */
+.hero-btn{
+    background-color: rgba(151, 79, 208, 1);
+    color: rgba(250, 249, 251, 1);
+}
+.hero-span{
+    color: rgba(151, 79, 208, 1); 
+}
+
+/* all task page*/
+.add-new-item{
+    text-decoration: none;
+    color: rgba(151, 79, 208, 1);
+    font-weight: 700;
+}
+
+.edit-btn{
+    background-color:rgba(151, 79, 208, 1) ;
+    color: rgba(250, 249, 251, 1);
+}
+
+.delete-btn{
+    background-color: inherit;
+    color:rgba(151, 79, 208, 1) ;
+    border: 1px solid rgba(151, 79, 208, 1);
+    
+
+}
+
+.delete-edit-img{
+    height: 1.2rem;
+}
+
+.urgent{
+    color: rgba(242, 131, 131, 1);
+}
+
+.important{
+    color: rgba(115, 195, 166, 1);
+}
+
+.new-task-link{
+    color: rgba(151, 79, 208, 1);
+}
+
+.new-task-container{
+    position: relative;
+    color: rgba(204, 204, 204, 1);
+}
+.task-title{
+    position: absolute;
+    top: -0.8rem;
+    left: 1rem;
+    color: rgba(156, 156, 156, 1);
+    background-color: #ffffff;
+    font-weight: 600;
+}
+
+.description-input{
+    outline: 0;
+    height: 10rem;
+}
+
+.tags-btn{
+    position: absolute;
+    bottom: 0.8rem;
+}
+
+.urgent-important-btn{
+    background-color: rgba(156, 156, 156, 1);
+    padding: 0.2rem;
+}
+
+.drop-img{
+    position: absolute;
+    right: 2rem;
+    top:1.2rem;
+}
+
+.done-task-btn{
+    background-color: rgba(151, 79, 208, 1);
+    color: rgba(250, 249, 251, 1);
+}
+
+/* edit page */
+.edit-description-input{
+    outline: 0;
+}
+
+.edit-description-input::placeholder{
+    color: rgba(41, 41, 41, 1);
+    font-weight: 600;
+}
+
+.dark{
+    background-color: rgba(41, 41, 41, 1);
+    color: #ffffff;
+}
+
+@media(max-width:425px){
+    .hero-img{
+        width: 100%;
+        margin: auto;
+    }
+}
